@@ -9,12 +9,13 @@
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style/style.css">
 
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
-    <a href="#top" class="top text-light">Top</a>
+    <a href="#top" class="top text-light  fs-2 border" id="btn-top"><i class="bi bi-arrow-up-short"></i></a>
     <div class="container-fluid g-0" id="top">
         <!--Header-->
         <header class="fond-top">
@@ -79,7 +80,7 @@
         <div class="container">
             <div class="row gx-4 py-5">
                 <h2 class="fs-4 text-warning text-center fst-italic">Snow mountain</h2>
-                <h3 class="fs-1 text-secondary text-center mb-1 mb-md-5">WHAT DO WE OFFER</h3>
+                <h3 class="fs-2 text-secondary text-center mb-1 mb-md-3">WHAT DO WE OFFER</h3>
 
                 <!-- Cottage deluxe  -->
                 <div class="col-md-4 col-sm-6 p-4 p-sm-3">
@@ -89,8 +90,8 @@
                             <h3>Cottage Deluxe</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, autem illo non culpa
                                 mollitia labore.</p>
-                            <button type="button" class="btn btn-warning  border-light text-light" data-bs-toggle="modal"
-                                data-bs-target="#cotageDeluxe">
+                            <button type="button" class="btn btn-warning  border-light text-light"
+                                data-bs-toggle="modal" data-bs-target="#cotageDeluxe">
                                 See more
                             </button>
                         </div>
@@ -126,8 +127,8 @@
                                     <button type="button" class=" btn btn-secondary btn-sm" data-bs-dismiss="modal">
                                         Close
                                     </button>
-                                    <button type="button" class="btn btn-warning btn-sm text-light" data-bs-toggle="tooltip"
-                                        data-bs-placement="bottom" title="bientôt disponible">
+                                    <button type="button" class="btn btn-warning btn-sm text-light"
+                                        data-bs-toggle="tooltip" data-bs-placement="bottom" title="bientôt disponible">
                                         Book now
                                     </button>
                                 </div>
@@ -143,8 +144,8 @@
                         <div class="card-body text-center">
                             <h3>Cottage Detente</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, autem</p>
-                            <button type="button" class="btn btn-warning  border-light text-light" data-bs-toggle="modal"
-                                data-bs-target="#cottageDetente">
+                            <button type="button" class="btn btn-warning  border-light text-light"
+                                data-bs-toggle="modal" data-bs-target="#cottageDetente">
                                 See more
                             </button>
                         </div>
@@ -179,8 +180,8 @@
                                     <button type="button" class=" btn btn-secondary btn-sm" data-bs-dismiss="modal">
                                         Close
                                     </button>
-                                    <button type="button" class="btn btn-warning text-light btn-sm" data-bs-toggle="tooltip"
-                                        data-bs-placement="bottom" title="bientôt disponible">
+                                    <button type="button" class="btn btn-warning text-light btn-sm"
+                                        data-bs-toggle="tooltip" data-bs-placement="bottom" title="bientôt disponible">
                                         Book now
                                     </button>
                                 </div>
@@ -197,8 +198,8 @@
                             <h3>Appartement Detente</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, autem illo non culpa
                                 mollitia labore.</p>
-                            <button type="button" class="btn btn-warning  border-light text-light" data-bs-toggle="modal"
-                                data-bs-target="#appartmentDetente">
+                            <button type="button" class="btn btn-warning  border-light text-light"
+                                data-bs-toggle="modal" data-bs-target="#appartmentDetente">
                                 See more
                             </button>
                         </div>
@@ -233,8 +234,8 @@
                                     <button type="button" class=" btn btn-secondary btn-sm" data-bs-dismiss="modal">
                                         Close
                                     </button>
-                                    <button type="button" class="btn btn-warning text-light btn-sm" data-bs-toggle="tooltip"
-                                        data-bs-placement="bottom" title="bientôt disponible">
+                                    <button type="button" class="btn btn-warning text-light btn-sm"
+                                        data-bs-toggle="tooltip" data-bs-placement="bottom" title="bientôt disponible">
                                         Book now
                                     </button>
                                 </div>
@@ -247,10 +248,10 @@
 
 
         <!-- Section Carousel -->
-        <div class="container-fluid bg-light py-5" id="activities">
+        <div class="container-fluid bg-light pt-3 pb-5" id="activities">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 pb-5">
+                    <div class="col-12 pb-md-5">
                         <!-- Création du carousel-->
                         <div id="carouselCat" class="carousel slide " data-bs-ride="carousel">
                             <h2 class="fs-4 text-warning text-center fst-italic">Snow mountain</h2>
@@ -263,7 +264,7 @@
                                     aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselCat" data-bs-slide-to="2"
                                     aria-label="Slide 3"></button>
-                            </div> 
+                            </div>
 
                             <!-- Contenu du carousel -->
                             <div class="carousel-inner">
@@ -349,51 +350,51 @@
         </div>
 
         <!-- Section contact -->
-        <div class="container" id="contact">
-        <div class="row g-0">
-            <h3 class="fs-1 text-secondary text-center mb-3 mb-md-3 mt-5">Contact</h3>
-            
-                
+        <div class="container mb-3 mb-md-5" id="contact">
+            <div class="row g-0">
+                <h3 class="fs-1 text-secondary text-center mb-3 mb-md-3 mt-5">Contact</h3>
+
+
                 <form class="contact opacity-75  w-100 border justify-content-center pb-5 px-2 p-md-5 mb-4">
                     <div class="form-row">
-                      <div class="form-group mb-3">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Name">
-                      </div>
-                      <div class="form-group mb-3">
-                        <label for="surname">Surname</label>
-                        <input type="password" class="form-control" id="Surname" placeholder="Surname">
-                      </div>
-                      <div class="form-group mb-3">
-                        <label for="name">Email</label>
-                        <input type="text" class="form-control" id="Email" placeholder="Email">
-                      </div>
+                        <div class="form-group mb-3">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="surname">Surname</label>
+                            <input type="password" class="form-control" id="Surname" placeholder="Surname">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="name">Email</label>
+                            <input type="text" class="form-control" id="Email" placeholder="Email">
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
-                      </div>
+                    </div>
                     <div class="form-group mb-3">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                          Check me out
-                        </label>
-                      </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
                     </div>
                     <button type="submit" class="btn btn-dark btn-sm mt-2">Send</button>
-                  </form>
+                </form>
 
+            </div>
         </div>
-    </div>
     </main>
     <!-- Footer -->
     <footer>
         <div class="col bg-dark p-5 footerOne d-flex justify-content-center align-items-center">
             <a class="navbar-brand logo fs-2 text-light text-light" href="#">Ski <span
-                class="logoColor bg-warning pb-1 px-1 fs-2 border border-light">&</span> Hiking</a>
+                    class="logoColor bg-warning pb-1 px-1 fs-2 border border-light">&</span> Hiking</a>
         </div>
-        <div class="col footerTwo p-2 text-light  text-center pt-3 align-items-center">
+        <div class="col footerTwo p-3 text-light  text-center pt-4 align-items-center">
             <p>Copyright 2021 © All Right Reserved</p>
         </div>
 
@@ -407,14 +408,37 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
 
-    <!-- Script pour tooltips -->
+
+
+    
     <script>
+        // Script Tooltips
         var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle-two="tooltip"]'))
         var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
             return new bootstrap.Tooltip(popoverTriggerEl)
         })
-    </script>
 
+
+        // Script pour Scroll to top 
+
+        //Get the button
+        let mybutton = document.getElementById("btn-top");
+
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>

@@ -9,6 +9,10 @@ a.top {
   bottom: 1em; 
   right: 1em; 
   position: fixed;
+  background-color: #e8e8e879;
+  color:#a0a0a0 !important;
+  padding: 3px 10px;
+  display: none;
 }
 
 /* Fond d'écran et slogan */
@@ -55,12 +59,13 @@ h1.slogan  {
 /* footer */
 
 .footerOne {
-  background:url('../img/snow3.jpg') top center ;
+  background:url('../img/snow3.jpg') center center ;
   background-size: cover;
   min-height: 30vh;
 }
 .footerTwo {
-  background-color: #f39418;
+  background: url('../img/newsLetterBackground.jpg') no-repeat ;
+  background-size: cover
 }
 
 
