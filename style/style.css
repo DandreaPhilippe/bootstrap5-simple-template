@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+/* Bouton retour top */
+a.top {
+  position: absolute; 
+  bottom: 1em; 
+  right: 1em; 
+  position: fixed;
+}
+
+/* Fond d'écran et slogan */
+.fond-slogan{
+    background: url('../img/ski-snow.jpg') no-repeat center center;
+    background-size: cover;
+    /* Taille minimum du fond */
+    min-height: 100vh;
+}
+
+/* Evite que le slogan ne sorte du flux */
+.slogan {
+    overflow: hidden;
+}
+h1.slogan  {
+    letter-spacing: 5px;
+    text-shadow: #000 1px 0 5px;  
+    font-size: 3.8em;
+    overflow: hidden;
+    animation: slide-in 2s linear forwards;
+    font-family:'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.carousel-item {
+  text-shadow: #000 1px 0 5px;  
+}
+
+/* Newsletter */
+
+.newsletter {
+  background: url('../img/newsLetterBackground.jpg') no-repeat ;
+  background-size: cover;
+  /* Taille minimum du fond */
+  min-height: 10vh;
+}
+
+/* contact */
+.contact {
+  background: #e9ecef;
+ 
+  padding-top: 3em;
+  min-height: 500px;
+}
+
+/* footer */
+
+.footerOne {
+  background:url('../img/snow3.jpg') top center ;
+  background-size: cover;
+  min-height: 30vh;
+}
+.footerTwo {
+  background-color: #f39418;
+}
+
+
+/* animation keyframes */
+ @-webkit-keyframes slide-in {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+
+@media all and (max-width: 820px) {
+   /* Réduction de la taille de la police en dessous de 820px */
+   h1.slogan {
+    font-size: 2.3rem;
+   }
+}

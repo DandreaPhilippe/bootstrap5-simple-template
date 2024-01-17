@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <title>Projet Bootstrap5: Thème montagne</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <a href="#top" class="top text-light">Top</a>
+    <div class="container-fluid g-0" id="top">
+        <!--Header-->
+        <header class="fond-top">
+            <div class="row g-0">
+                <div class="col-12 ">
+                    <!-- Barre de navigation -->
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-3 border-bottom border-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand logo fs-2" href="index.html">Ski <span
+                                    class="logoColor bg-warning pb-1 px-1 fs-2 border border-light">&</span> Hiking</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ms-auto text-uppercase pt-2">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#locations">Locations</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#activities">Activities</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav><!-- Fin de la barre de navigation -->
+                </div>
+            </div>
+            <!-- Slogan -->
+            <div class="row g-0 fond-slogan">
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <div class="content-slogan text-center">
+                        <h1 class="text-light slogan lh-1 text-center text-capitalize"> Winter sports <br />in the
+                            </br:><span class="text-warning ">Mountains</span></h1>
+                        <div class="dropdown">
+                            <button class="btn btn-dark dropdown-toggle text-uppercase" type="button"
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
+                                data-bs-toggle-two="tooltip" data-bs-placement="right" title="Available(2)">
+                                Book now
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Cottages</a></li>
+                                <li><a class="dropdown-item" href="#">Appartments</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header><!-- Fin du header -->
+    </div>
+
+    <!-- Section locations -->
+    <main id="locations">
+        <div class="container">
+            <div class="row gx-4 py-5">
+                <h2 class="fs-4 text-warning text-center fst-italic">Snow mountain</h2>
+                <h3 class="fs-1 text-secondary text-center mb-1 mb-md-5">WHAT DO WE OFFER</h3>
+
+                <!-- Cottage deluxe  -->
+                <div class="col-md-4 col-sm-6 p-4 p-sm-3">
+                    <div class="card">
+                        <img src="img/cottage2.jpg" class="card-img-top img-fluid" alt="..." />
+                        <div class="card-body text-center">
+                            <h3>Cottage Deluxe</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, autem illo non culpa
+                                mollitia labore.</p>
+                            <button type="button" class="btn btn-warning  border-light text-light" data-bs-toggle="modal"
+                                data-bs-target="#cotageDeluxe">
+                                See more
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Modal Cottage deluxe  -->
+                <div class="modal fade" id="cotageDeluxe" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title" id="exampleModalLabel">
+                                    Cottage Deluxe
+                                </h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Fermer"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/cottage2.jpg" class="card-img-top img-fluid"
+                                    alt="Echarpe deluxe Harry Potter Gryffondor pourpre et or" />
+                                <div class="card-body"></div>
+                                <div class="modal-footer">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem saepe
+                                        quo quod voluptas ipsam, ullam dolores sunt suscipit assumenda nihil, facere
+                                        maxime corporis id enim dolore vero deserunt odit nulla?
+                                        Deserunt, provident, accusantium, pariatur ad sed quasi voluptate voluptatum ea
+                                        tenetur itaque distinctio exercitationem mollitia! Animi aspernatur commodi
+                                        distinctio quod suscipit itaque dolorem neque? Eum sed aut commodi eligendi
+                                        laborum.</p>
+                                    <button type="button" class=" btn btn-secondary btn-sm" data-bs-dismiss="modal">
+                                        Close
+                                    </button>
+                                    <button type="button" class="btn btn-warning btn-sm text-light" data-bs-toggle="tooltip"
+                                        data-bs-placement="bottom" title="bientôt disponible">
+                                        Book now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Cottage detente  -->
+                <div class="col-md-4 col-sm-6 p-4 p-sm-3">
+                    <div class="card">
+                        <img src="img/cottage1.jpg" class="card-img-top img-fluid" alt="..." />
+                        <div class="card-body text-center">
+                            <h3>Cottage Detente</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, autem</p>
+                            <button type="button" class="btn btn-warning  border-light text-light" data-bs-toggle="modal"
+                                data-bs-target="#cottageDetente">
+                                See more
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Modal Cottage Detente -->
+                <div class="modal fade" id="cottageDetente" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title" id="exampleModalLabel">
+                                    Cottage Detente
+                                </h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Fermer"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/cottage1.jpg" class="card-img-top img-fluid"
+                                    alt="Echarpe deluxe Harry Potter Gryffondor pourpre et or" />
+                                <div class="card-body"></div>
+                                <div class="modal-footer">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem saepe
+                                        quo quod voluptas ipsam, ullam dolores sunt suscipit assumenda nihil, facere
+                                        maxime corporis id enim dolore vero deserunt odit nulla?
+                                        Deserunt, provident, accusantium, pariatur ad sed quasi voluptate voluptatum ea
+                                        tenetur itaque distinctio exercitationem mollitia! Animi aspernatur commodi
+                                        distinctio quod suscipit itaque dolorem neque? Eum sed aut commodi eligendi
+                                        laborum.</p>
+                                    <button type="button" class=" btn btn-secondary btn-sm" data-bs-dismiss="modal">
+                                        Close
+                                    </button>
+                                    <button type="button" class="btn btn-warning text-light btn-sm" data-bs-toggle="tooltip"
+                                        data-bs-placement="bottom" title="bientôt disponible">
+                                        Book now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Appartpment detente  -->
+                <div class="col-md-4 col-sm-6 p-4 p-sm-3">
+                    <div class="card">
+                        <img src="img/cottage3.jpg" class="card-img-top img-fluid" alt="..." />
+                        <div class="card-body text-center">
+                            <h3>Appartement Detente</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, autem illo non culpa
+                                mollitia labore.</p>
+                            <button type="button" class="btn btn-warning  border-light text-light" data-bs-toggle="modal"
+                                data-bs-target="#appartmentDetente">
+                                See more
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Modal Appartment detente -->
+                <div class="modal fade" id="appartmentDetente" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title" id="exampleModalLabel">
+                                    Appartement détente
+                                </h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Fermer"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/cottage3.jpg" class="card-img-top img-fluid"
+                                    alt="Echarpe deluxe Harry Potter Gryffondor pourpre et or" />
+                                <div class="card-body"></div>
+                                <div class="modal-footer">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem saepe
+                                        quo quod voluptas ipsam, ullam dolores sunt suscipit assumenda nihil, facere
+                                        maxime corporis id enim dolore vero deserunt odit nulla?
+                                        Deserunt, provident, accusantium, pariatur ad sed quasi voluptate voluptatum ea
+                                        tenetur itaque distinctio exercitationem mollitia! Animi aspernatur commodi
+                                        distinctio quod suscipit itaque dolorem neque? Eum sed aut commodi eligendi
+                                        laborum.</p>
+                                    <button type="button" class=" btn btn-secondary btn-sm" data-bs-dismiss="modal">
+                                        Close
+                                    </button>
+                                    <button type="button" class="btn btn-warning text-light btn-sm" data-bs-toggle="tooltip"
+                                        data-bs-placement="bottom" title="bientôt disponible">
+                                        Book now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Section Carousel -->
+        <div class="container-fluid bg-light py-5" id="activities">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pb-5">
+                        <!-- Création du carousel-->
+                        <div id="carouselCat" class="carousel slide " data-bs-ride="carousel">
+                            <h2 class="fs-4 text-warning text-center fst-italic">Snow mountain</h2>
+                            <h3 class="fs-1 text-secondary text-center mb-3 mb-md-5">Activities</h3>
+                            <!-- Indicateurs du carousel -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselCat" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselCat" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselCat" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div> 
+
+                            <!-- Contenu du carousel -->
+                            <div class="carousel-inner">
+                                <!-- Item 1 -->
+                                <div class="carousel-item active">
+                                    <img src="img/hiking1.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h2>Hiking Moutain</h2>
+                                        <p class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Item 2 -->
+                                <div class="carousel-item">
+                                    <img src="img/ski1.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h2>Ski Moutain</h2>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+
+                                <!-- Item 3 -->
+                                <div class="carousel-item">
+                                    <img src="img/hiking2.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h2>Hiking moutain</h2>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Bouton précédent -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCat"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <!-- Bouton suivant -->
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselCat"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Fin du carousel-->
+
+        <!-- Section newsletter-->
+        <div class="row newsletter bg-warning py-5 g-0 ">
+            <div class="col text-center text-light">
+
+                <div class="container">
+                    <div class="row g-0">
+                        <div class="col-md-6 mb-2">
+                            <h3 class="fs-2">LET'S ADVENTURE WITH <span class="fs-2">US</span> !</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minima recusandae minus
+                                impedit repudiandae iusto deserunt veniam? Commodi, iure consequatur!</p>
+
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center justify-content-center">
+                            <form class="row row-cols-lg-auto g-0 align-items-center">
+                                <div class="col-8 col-md-8">
+                                    <label class="visually-hidden" for="inlineFormInputGroupUsername">Email</label>
+                                    <div class="input-group">
+                                        <div class="input-group-text">@</div>
+                                        <input type="text" class="form-control" id="inlineFormInputGroupUsername"
+                                            placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class=" col-4 col-md-4">
+                                    <button type="submit" class="btn btn-dark  ms-1">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Section contact -->
+        <div class="container" id="contact">
+        <div class="row g-0">
+            <h3 class="fs-1 text-secondary text-center mb-3 mb-md-3 mt-5">Contact</h3>
+            
+                
+                <form class="contact opacity-75  w-100 border justify-content-center pb-5 px-2 p-md-5 mb-4">
+                    <div class="form-row">
+                      <div class="form-group mb-3">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                      </div>
+                      <div class="form-group mb-3">
+                        <label for="surname">Surname</label>
+                        <input type="password" class="form-control" id="Surname" placeholder="Surname">
+                      </div>
+                      <div class="form-group mb-3">
+                        <label for="name">Email</label>
+                        <input type="text" class="form-control" id="Email" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                      </div>
+                    <div class="form-group mb-3">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-dark btn-sm mt-2">Send</button>
+                  </form>
+
+        </div>
+    </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="col bg-dark p-5 footerOne d-flex justify-content-center align-items-center">
+            <a class="navbar-brand logo fs-2 text-light text-light" href="#">Ski <span
+                class="logoColor bg-warning pb-1 px-1 fs-2 border border-light">&</span> Hiking</a>
+        </div>
+        <div class="col footerTwo p-2 text-light  text-center pt-3 align-items-center">
+            <p>Copyright 2021 © All Right Reserved</p>
+        </div>
+
+    </footer>
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+
+    <!-- Script pour tooltips -->
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle-two="tooltip"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Tooltip(popoverTriggerEl)
+        })
+    </script>
+
+</body>
+
+</html>
